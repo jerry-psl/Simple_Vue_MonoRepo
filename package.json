@@ -13,9 +13,14 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "storybook": "start-storybook",
-    "create:new:package": "lerna create"
+    "create:new:package": "lerna create",
+    "run:client:1": "yarn workspace designer-1-client serve",
+    "transpile": "lerna run transpile"
   },
   "dependencies": {
-    "vue": "^2.6.12"
-  }
+    "vue": "^3.0.0"
+  },
+  "workspaces": [
+    "./packages/*"
+  ]
 }

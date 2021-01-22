@@ -5,6 +5,11 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "transpile": "vue-cli-service build --target lib ./src/index.js"
+    "transpile": "vue-cli-service build --target lib ./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^7.5.0"
   }
 }
